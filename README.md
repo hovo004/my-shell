@@ -86,16 +86,16 @@ Shows your command history — either everything, or just the last `N` commands.
 
 ```
 mysh:~$ pwd
-/home/hovhannes
-mysh:~$ set NAME="Hovhannes"
+/home/username
+mysh:~$ set NAME="username"
 mysh:~$ echo Hello $NAME
-Hello Hovhannes
+Hello username
 mysh:~$ cd projects
 mysh:~/projects$ ls
 mysh.c  README.md
 mysh:~/projects$ history
 1 pwd
-2 set NAME="Hovhannes"
+2 set NAME="username"
 3 echo Hello $NAME
 4 cd projects
 mysh:~/projects$ exit
